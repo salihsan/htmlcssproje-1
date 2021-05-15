@@ -92,7 +92,8 @@ ul li{
     display: block;
     position: absolute;
     transform: translate(400px);
-    background-color: black;
+    /* background-color: black; */
+    color: white;
     z-index: 2;
     margin: 4px 0 0 30px;
     
