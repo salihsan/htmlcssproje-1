@@ -62,8 +62,7 @@ ul li{
     justify-content: center;
     align-items:center;
     align-content: center;
-
-
+    
 }
 .header-img-container .search{
    
@@ -99,4 +98,42 @@ ul li{
     
 }
 
+
+
+.container{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+  display:block;
+/*   border:2px dotted ; */
+/*   background-color:red;  */
+  width:80%;
+  height:800px;
+  margin-left:10%;
+  margin-right:10%;
+}
+.row{
+  width:100%; 
+/*   border:3px solid blue; */
+  height:350px;
+  padding: 20px 0 0 3px;
+  margin-left: 200px;
+  
+}
+.box-img{
+/*   border:3px dashed yellow; */
+  width:224px;
+  height:300px; 
+  float:left;
+  margin:20px 10px 0 10px;
+}
+
+.box-img img{
+    max-width: 222px;
+    max-height: 300px;
+    
+}
 
