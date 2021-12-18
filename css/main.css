@@ -17,7 +17,9 @@ header{
 #logo{
     width: 20%;
     float: left;
-    /* border: 2px solid blue; */
+    box-sizing: border-box;
+    border: 2px solid rgb(190, 190, 192);
+    background-color: #eee
     
 }
 #logo img{
