@@ -69,6 +69,7 @@ ul li{
    
     position: absolute;
     border-radius: 5px;
+    border:1px solid rgba(0,0,0,0.5);
     width:400px;
     height:40px;
     background-color:rgba(255,255,255, 0.8);
@@ -84,6 +85,8 @@ ul li{
     width:80px;
     transform: translateX(400px);
     border-radius: 5px;
+    margin-left: 3px;
+    padding:0 20px ;
     
 
 }
@@ -104,8 +107,6 @@ ul li{
 .container{
   
   display:block;
-/*   border:2px dotted ; */
-/*   background-color:red;  */
   width:80%;
   height:800px;
   margin-left:10%;
@@ -113,7 +114,6 @@ ul li{
 }
 .row{
   width:100%; 
-  /* border:3px solid blue; */
   height:350px;
   padding: 20px 0 0 3px;
   display: flex;
@@ -125,8 +125,10 @@ ul li{
   
 }
 .box-img{
-/*   border:3px dashed yellow; */
-  width:224px;
+  box-shadow: -5px 5px 10px rgba(169, 204, 158, 0.92),
+              5px -5px 10px rgba(140, 161, 231, 0.92),
+              5px 5px 10px rgba(177, 230, 182, 0.92);
+  /* border-radius: 5px; */
   height:300px; 
   float:left;
   margin:20px 10px 0 10px;
@@ -135,6 +137,8 @@ ul li{
 .box-img img{
     max-width: 222px;
     max-height: 300px;
+    /* border-radius: 8px; */
+    
     
 }
 .row-container{
@@ -160,7 +164,8 @@ ul li{
     border-radius:5px;
 
 }
-.kutu:first-child ,.kutu:last-child{
+.kutu:first-child ,
+.kutu:last-child{
     width:20%;
     color:#fff;
     background-color:darkolivegreen;
